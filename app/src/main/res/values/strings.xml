@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">EMart</string>
+    <string name="don_t_have_account_register">Don\'t have Account? <b>Register</b></string>
+    <string name="are_you_a_seller_register_as_seller">Are you a seller?<b> Register as seller</b> </string>
+</resources>

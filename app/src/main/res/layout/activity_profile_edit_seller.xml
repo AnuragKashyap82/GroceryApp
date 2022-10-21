@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGray00"
+    tools:context=".activities.ProfileEditSellerActivity">
+
+    <RelativeLayout
+        android:id="@+id/toolbarRl"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/shape_rect01"
+        android:padding="10dp">
+
+        <ImageButton
+            android:id="@+id/backBtn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:src="@drawable/ic_back_white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Edit Profile"
+            android:fontFamily="@font/segoe_ui_bold"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/gpsBtn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_gps_white" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="48dp"
+            android:layout_centerVertical="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/segoe_ui_bold"
+                android:text="Edit Your Profile"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/white"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:text="Here you can update your basic details"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/seg_ui_semibold"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbarRl">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/updateBtn"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="wrap_content"
+                android:layout_height="52dp"
+                android:layout_below="@id/shopOpenSwitch"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/button_background"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/seg_ui_semibold"
+                android:minWidth="150dp"
+                android:paddingLeft="26dp"
+                android:paddingRight="26dp"
+                android:text="Update"
+                android:textColor="@color/white"
+                android:textColorHint="@color/colorGray01" />
+
+            <EditText
+                android:id="@+id/nameEt"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_below="@id/profileIv"
+                android:layout_marginBottom="5dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/shape_rect02"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/ic_person_gray"
+                android:fontFamily="@font/seg_ui_semibold"
+                android:hint="Your Name"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:paddingLeft="26dp"
+                android:paddingRight="26dp"
+                android:textColor="@color/colorBlack"
+                android:textColorHint="@color/colorGray01" />
+
+            <EditText
+                android:id="@+id/shopNameEt"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_below="@id/nameEt"
+                android:layout_marginBottom="5dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/shape_rect02"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/ic_store_gray"
+                android:fontFamily="@font/seg_ui_semibold"
+                android:hint="Shop Name"
+                android:inputType="textCapWords"
+                android:padding="10dp"
+                android:paddingLeft="26dp"
+                android:paddingRight="26dp"
+                android:textColor="@color/colorBlack"
+                android:textColorHint="@color/colorGray01" />
+
+
+            <EditText
+                android:id="@+id/deliveryFeeEt"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_below="@id/emailNotVerifiedTv"
+                android:layout_marginBottom="5dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/shape_rect02"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/ic_local_shipping_gray"
+                android:fontFamily="@font/seg_ui_semibold"
+                android:hint="Delivery Fee"
+                android:inputType="numberDecimal"
+                android:padding="10dp"
+                android:paddingLeft="26dp"
+                android:paddingRight="26dp"
+                android:textColor="@color/colorBlack"
+                android:textColorHint="@color/colorGray01" />
+
+            <EditText
+                android:id="@+id/addressET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/addressLl"
+                android:layout_marginBottom="5dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/shape_rect02"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/ic_location_gray"
+                android:fontFamily="@font/seg_ui_semibold"
+                android:hint="Complete Address"
+                android:inputType="textPostalAddress|textMultiLine"
+                android:padding="10dp"
+                android:paddingLeft="26dp"
+                android:paddingRight="26dp"
+                android:textColor="@color/colorBlack"
+                android:textColorHint="@color/colorGray01" />
+
+            <LinearLayout
+                android:id="@+id/addressLl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/deliveryFeeEt"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/countryEt"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_rect02"
+                    android:drawablePadding="5dp"
+                    android:drawableStart="@drawable/ic_location_gray"
+                    android:fontFamily="@font/seg_ui_semibold"
+                    android:hint="Country"
+                    android:inputType="textPostalAddress"
+                    android:padding="10dp"
+                    android:textColor="@color/colorBlack"
+                    android:textColorHint="@color/colorGray01" />
+
+
+                <EditText
+                    android:id="@+id/stateEt"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_rect02"
+                    android:drawablePadding="5dp"
+                    android:drawableStart="@drawable/ic_location_gray"
+                    android:fontFamily="@font/seg_ui_semibold"
+                    android:hint="State"
+                    android:inputType="textPostalAddress"
+                    android:padding="10dp"
+                    android:textColor="@color/colorBlack"
+                    android:textColorHint="@color/colorGray01" />
+
+                <EditText
+                    android:id="@+id/cityEt"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_rect02"
+                    android:drawablePadding="5dp"
+                    android:drawableStart="@drawable/ic_location_gray"
+                    android:fontFamily="@font/seg_ui_semibold"
+                    android:hint="City"
+                    android:inputType="textPostalAddress"
+                    android:padding="10dp"
+                    android:textColor="@color/colorBlack"
+                    android:textColorHint="@color/colorGray01" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/verificationRl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/updateBtn"
+                android:layout_centerHorizontal="true"
+                android:visibility="gone">
+
+                <Button
+                    android:id="@+id/resendCode"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:layout_width="wrap_content"
+                    android:layout_height="52dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button_background"
+                    android:drawablePadding="10dp"
+                    android:fontFamily="@font/seg_ui_semibold"
+                    android:minWidth="350dp"
+                    android:paddingLeft="26dp"
+                    android:paddingRight="26dp"
+                    android:text="Verify Your Email Now"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/colorGray01" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/phoneTv"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_below="@id/shopNameEt"
+                android:layout_marginBottom="5dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/shape_rect02"
+                android:drawableEnd="@drawable/ic_verified_user"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/ic_phone_gray"
+                android:fontFamily="@font/seg_ui_semibold"
+                android:gravity="center_vertical"
+                android:hint="Phone"
+                android:padding="10dp"
+                android:paddingLeft="26dp"
+                android:paddingRight="26dp"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/emailTv"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_below="@id/phoneTv"
+                android:layout_marginBottom="5dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/shape_rect02"
+                android:drawableEnd="@drawable/ic_verified_user"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/ic_mail_gray"
+                android:fontFamily="@font/seg_ui_semibold"
+                android:gravity="center_vertical"
+                android:hint="Email"
+                android:padding="10dp"
+                android:paddingLeft="26dp"
+                android:paddingRight="26dp"
+                android:textColor="@color/colorPrimary"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/emailNotVerifiedTv"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_below="@id/emailTv"
+                android:layout_marginBottom="5dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/shape_rect02"
+                android:drawableEnd="@drawable/ic_unverified_user"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/ic_mail_gray"
+                android:fontFamily="@font/seg_ui_semibold"
+                android:gravity="center_vertical"
+                android:hint="Email"
+                android:padding="10dp"
+                android:paddingLeft="26dp"
+                android:paddingRight="26dp"
+                android:textColor="@color/colorPrimary"
+                android:visibility="gone" />
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/shopOpenSwitch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/addressET"
+                android:layout_marginBottom="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/segoe_ui_bold"
+                android:text="Shop Open" />
+
+            <com.blogspot.atifsoftwares.circularimageview.CircularImageView
+                android:id="@+id/profileIv"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/ic_person_gray"
+                app:c_border="true"
+                app:c_border_color="@color/colorPrimary"
+                app:c_border_width="1dp" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

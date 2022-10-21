@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorGray00"
+    tools:context=".activities.EditProductActivity">
+
+    <RelativeLayout
+        android:id="@+id/sellerRl"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/shape_rect01"
+        android:padding="10dp">
+
+        <ImageButton
+            android:id="@+id/backBtn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:src="@drawable/ic_back_white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/segoe_ui_bold"
+            android:text="Edit Products"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="48dp"
+            android:layout_centerVertical="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:fontFamily="@font/segoe_ui_bold"
+                android:text="Here you can Edit your products details"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/white"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:layout_marginTop="20dp"
+                android:text="Provide the necessary details of the products"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/seg_ui_semibold"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbarRl">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <com.blogspot.atifsoftwares.circularimageview.CircularImageView
+            android:id="@+id/productIconIv"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_add_shopping_primary"
+            app:c_border="true"
+            app:c_border_color="@color/colorPrimary"
+            app:c_border_width="1dp" />
+
+        <EditText
+            android:id="@+id/titleEt"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_below="@id/productIconIv"
+            android:layout_marginBottom="5dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/shape_rect02"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/ic_tittle_gray"
+            android:fontFamily="@font/seg_ui_semibold"
+            android:hint="Tittle"
+            android:inputType="textCapWords"
+            android:padding="10dp"
+            android:paddingLeft="26dp"
+            android:paddingRight="26dp"
+            android:textColor="@color/colorBlack"
+            android:textColorHint="@color/colorGray01" />
+
+        <EditText
+            android:id="@+id/descriptionEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/titleEt"
+            android:layout_marginBottom="5dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/shape_rect02"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/ic_tittle_gray"
+            android:fontFamily="@font/seg_ui_semibold"
+            android:hint="Description"
+            android:inputType="textCapSentences|textMultiLine"
+            android:padding="10dp"
+            android:paddingLeft="26dp"
+            android:paddingRight="26dp"
+            android:textColor="@color/colorBlack"
+            android:textColorHint="@color/colorGray01" />
+
+        <TextView
+            android:id="@+id/categoryTv"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_below="@id/descriptionEt"
+            android:layout_marginBottom="5dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/shape_rect02"
+            android:drawableEnd="@drawable/ic_down_gray"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/ic_categories_gray"
+            android:fontFamily="@font/seg_ui_semibold"
+            android:gravity="center_vertical"
+            android:hint="Category"
+            android:inputType="textCapSentences|textMultiLine"
+            android:padding="10dp"
+            android:paddingLeft="26dp"
+            android:paddingRight="26dp"
+            android:textAllCaps="true"
+            android:textColor="@color/colorBlack"
+            android:textColorHint="@color/colorGray01" />
+
+        <EditText
+            android:id="@+id/quantityEt"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_below="@id/categoryTv"
+            android:layout_marginBottom="5dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/shape_rect02"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/ic_cart_gray"
+            android:fontFamily="@font/seg_ui_semibold"
+            android:hint="Quantity e.g. Kg, g, etc"
+            android:inputType="textCapWords"
+            android:padding="10dp"
+            android:paddingLeft="26dp"
+            android:paddingRight="26dp"
+            android:textColor="@color/colorBlack"
+            android:textColorHint="@color/colorGray01" />
+
+        <EditText
+            android:id="@+id/priceEt"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_below="@id/quantityEt"
+            android:layout_marginBottom="5dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/shape_rect02"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/ic_cart_gray"
+            android:fontFamily="@font/seg_ui_semibold"
+            android:hint="Price"
+            android:inputType="numberDecimal"
+            android:padding="10dp"
+            android:paddingLeft="26dp"
+            android:paddingRight="26dp"
+            android:textColor="@color/colorBlack"
+            android:textColorHint="@color/colorGray01" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/discountSwitch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/priceEt"
+            android:layout_marginBottom="5dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/seg_ui_semibold"
+            android:text="Discount" />
+
+        <EditText
+            android:id="@+id/discountPriceEt"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_below="@id/discountSwitch"
+            android:layout_marginBottom="5dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/shape_rect02"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/ic_cart_gray"
+            android:fontFamily="@font/seg_ui_semibold"
+            android:hint="Discounted Price"
+            android:inputType="numberDecimal"
+            android:padding="10dp"
+            android:paddingLeft="26dp"
+            android:paddingRight="26dp"
+            android:textColor="@color/colorBlack"
+            android:textColorHint="@color/colorGray01" />
+
+        <EditText
+            android:id="@+id/discountNoteEt"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_below="@id/discountPriceEt"
+            android:layout_marginBottom="5dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/shape_rect02"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/ic_cart_gray"
+            android:fontFamily="@font/seg_ui_semibold"
+            android:hint="Discount Note e.g 10% OFF"
+            android:inputType="textCapSentences"
+            android:padding="10dp"
+            android:paddingLeft="26dp"
+            android:paddingRight="26dp"
+            android:textColor="@color/colorBlack"
+            android:textColorHint="@color/colorGray01" />
+
+        <Button
+            android:id="@+id/updateProductBtn"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="52dp"
+            android:layout_below="@id/discountNoteEt"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/button_background"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/seg_ui_semibold"
+            android:minWidth="150dp"
+            android:paddingLeft="26dp"
+            android:paddingRight="26dp"
+            android:text="Update Product"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

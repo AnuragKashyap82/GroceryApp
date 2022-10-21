@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGray00"
+    tools:context=".activities.ShopClosedActivity">
+
+    <RelativeLayout
+        android:id="@+id/toolbarRl"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/shape_rect01"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Shop Closed"
+            android:fontFamily="@font/segoe_ui_bold"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="48dp"
+            android:layout_centerVertical="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:fontFamily="@font/segoe_ui_bold"
+                android:text="Shop is closed. Wait until the shop reopens"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/white"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:text="By tne time you can shop from another Shop"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/seg_ui_semibold"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <com.blogspot.atifsoftwares.circularimageview.CircularImageView
+        android:id="@+id/profileIv"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/toolbarRl"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/ic_store_gray"
+        app:c_border="true"
+        app:c_border_color="@color/colorPrimaryDark"
+        app:c_border_width="1dp"/>
+
+    <TextView
+        android:id="@+id/shopNameTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profileIv"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/seg_ui_semibold"
+        android:text="Shop Name"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/oops"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Oops......!!!!"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/shopNameTv"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorRed"
+        android:fontFamily="@font/seg_ui_semibold"/>
+
+    <TextView
+        android:id="@+id/closeNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:text="Shop is now Closed. Please order your Product when the Shop will reopen."
+        android:textColor="@color/colorGreen"
+        android:textSize="20dp"
+        android:fontFamily="@font/seg_ui_semibold"
+        android:layout_below="@id/oops"/>
+
+    <Button
+        android:id="@+id/shopBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buy from another Shop"
+        android:textColor="@color/white"
+        android:background="@drawable/shape_rect02"
+        android:layout_below="@id/closeNote"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:fontFamily="@font/seg_ui_semibold"/>
+
+</RelativeLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/drawable-v24/button_background.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/drawable-v24/card_background.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/drawable/ic_add_black.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/drawable/ic_back_white.xml" value="0.189453125" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/drawable/ic_calender_gray.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/drawable/ic_cart_gray.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/drawable/ic_categories_gray.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/drawable/ic_delete_gray.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/drawable/ic_discount_gray.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/drawable/ic_done_white.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/drawable/ic_down_gray.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/drawable/ic_filter_gray.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/drawable/ic_image_white.xml" value="0.189453125" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/drawable/ic_key_gray.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/drawable/ic_local_shipping_gray.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/drawable/ic_location_gray.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/drawable/ic_lock_gray.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/drawable/ic_logout_white.xml" value="0.189453125" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/drawable/ic_mail_gray.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/drawable/ic_next_gray.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/drawable/ic_person_gray.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/drawable/ic_phone_gray.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/drawable/ic_search_gray.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/drawable/ic_send_primary.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/drawable/ic_settings_gray.xml" value="0.189453125" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/drawable/ic_store_gray.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/drawable/ic_tittle_gray.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/drawable/shape_circle00.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/drawable/shape_circle01.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/drawable/shape_circle03.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/drawable/shape_recr05.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/drawable/shape_rect01.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/drawable/shape_rect02.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/drawable/shape_rect03.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/drawable/shape_rect04.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/drawable/shape_rect05.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/drawable/shape_rect06.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/drawable/shape_rect07.xml" value="0.189453125" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/layout/activity_add_product.xml" value="0.17528957528957528" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/layout/activity_add_promo_codes.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/layout/activity_add_promotion_code.xml" value="0.264" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/layout/activity_authentication.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/layout/activity_authentication_seller.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/layout/activity_authentication_user.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/layout/activity_choose_login.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/layout/activity_edit_product.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/layout/activity_forgot_password.xml" value="0.17734375" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/layout/activity_image_view_seller.xml" value="0.17734375" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/layout/activity_login.xml" value="0.17734375" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/layout/activity_main.xml" value="0.22239583333333332" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/layout/activity_main_seller.xml" value="0.17528957528957528" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/layout/activity_main_user.xml" value="0.2" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/layout/activity_order_details_seller.xml" value="0.17734375" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/layout/activity_order_details_users.xml" value="0.17734375" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/layout/activity_otp.xml" value="0.2" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/layout/activity_payment_method.xml" value="0.264" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/layout/activity_phone_login.xml" value="0.2" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/layout/activity_phone_number_login.xml" value="0.264" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/layout/activity_pormotion_codes.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/layout/activity_profile_edit_seller.xml" value="0.2" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/layout/activity_profile_edit_user.xml" value="0.17734375" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/layout/activity_register_seller.xml" value="0.2" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/layout/activity_register_user.xml" value="0.17734375" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/layout/activity_settings.xml" value="0.176" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/layout/activity_shop_closed.xml" value="0.17734375" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/layout/activity_shop_detail.xml" value="0.2" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/layout/activity_shop_details.xml" value="0.17734375" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/layout/activity_shop_details_seller.xml" value="0.17734375" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/layout/activity_shop_products.xml" value="0.17734375" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/layout/activity_shops_reviews.xml" value="0.17734375" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/layout/activity_splash.xml" value="0.17734375" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/layout/activity_write_review.xml" value="0.17734375" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/layout/bs_product_details_seller.xml" value="0.17528957528957528" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/layout/categories_ll.xml" value="0.17734375" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/layout/category_items_seller.xml" value="0.176" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/layout/dialog_cart.xml" value="0.2" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/layout/dialog_quantity.xml" value="0.264" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/layout/horizantal_categories.xml" value="0.8800000000000001" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/layout/horizantal_categories_view.xml" value="0.17734375" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/layout/payment_method.xml" value="0.2644146767617938" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/layout/row_cartitem.xml" value="0.536" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/layout/row_order_seller.xml" value="0.1" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/layout/row_order_user.xml" value="0.4" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/layout/row_ordereditem.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/layout/row_product_seller.xml" value="0.264" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/layout/row_product_user.xml" value="0.264" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/layout/row_promotion_shop.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/layout/row_review.xml" value="0.2" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/layout/row_shop.xml" value="0.264" />
+        <entry key="..\:/Users/Asus/Android Studio/EMart/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.17734375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

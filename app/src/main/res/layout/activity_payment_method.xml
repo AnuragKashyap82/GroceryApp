@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@color/colorGray00"
+    tools:context=".PaymentMethodActivity">
+
+    <RelativeLayout
+        android:id="@+id/paymentRl"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/shape_rect01"
+        android:padding="10dp">
+
+        <ImageButton
+            android:id="@+id/backBtn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:src="@drawable/ic_back_white" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="48dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="1dp"
+                android:fontFamily="@font/segoe_ui_bold"
+                android:text="You can pay your Amount here"
+                android:textColor="@color/white"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/seg_ui_semibold"
+                android:text="Choose any methods to pay your total amount"
+                android:textColor="@color/white"
+                android:textSize="14dp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="160dp"
+            android:fontFamily="@font/segoe_ui_bold"
+            android:text="Choose Payment Methods"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/segoe_ui_bold"
+            android:text="Payment Methods"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+  <RelativeLayout
+      android:id="@+id/paymentOptionsRl"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_above="@id/otherLoginBtn"
+      android:layout_below="@id/paymentRl">
+
+      <TextView
+          android:id="@+id/amountTv"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="10dp"
+          android:layout_marginTop="10dp"
+          android:fontFamily="@font/segoe_ui_bold"
+          android:text="Total amount to Pay: "
+          android:textColor="@color/colorBlack" />
+
+      <TextView
+          android:id="@+id/amountPayable"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginRight="10dp"
+          android:layout_marginTop="10dp"
+          android:layout_toEndOf="@id/amountTv"
+          android:fontFamily="@font/segoe_ui_bold"
+          android:text="$467.99"
+          android:textStyle="bold"
+          android:textColor="@color/colorGreen" />
+
+      <ImageButton
+          android:id="@+id/codBtn"
+          android:layout_width="250dp"
+          android:layout_height="100dp"
+          android:layout_centerHorizontal="true"
+          android:layout_marginTop="72dp"
+          android:background="@drawable/cod"
+          android:scaleType="center"/>
+
+    <ImageButton
+        android:id="@+id/paytmBtn"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/codBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/paytm" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_below="@id/codBtn"
+          android:layout_centerHorizontal="true"
+          android:layout_marginTop="4dp"
+          android:fontFamily="@font/segoe_ui_bold"
+          android:text="Cash On Delivery"
+          android:textColor="@color/colorBlack" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/paytmBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/segoe_ui_bold"
+        android:text="Paytm"
+        android:textColor="@color/colorBlack" />
+
+
+  </RelativeLayout>
+
+    <TextView
+        android:id="@+id/otherLoginBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/loginBtnLl"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/seg_ui_semibold"
+        android:text="or Pay with"
+        android:textColorHint="@color/colorGray02" />
+
+    <LinearLayout
+        android:id="@+id/loginBtnLl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/google" />
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/facebook" />
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/instagram" />
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/twitter" />
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/linkedin" />
+
+    </LinearLayout>
+
+</RelativeLayout>
+
